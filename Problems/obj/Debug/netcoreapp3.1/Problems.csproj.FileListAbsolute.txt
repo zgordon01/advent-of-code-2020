@@ -1,9 +1,0 @@
-C:\Users\zacha\Desktop\advent-of-code-2020\Problems\bin\Debug\netcoreapp3.1\Problems.deps.json
-C:\Users\zacha\Desktop\advent-of-code-2020\Problems\bin\Debug\netcoreapp3.1\Problems.dll
-C:\Users\zacha\Desktop\advent-of-code-2020\Problems\bin\Debug\netcoreapp3.1\Problems.pdb
-C:\Users\zacha\Desktop\advent-of-code-2020\Problems\obj\Debug\netcoreapp3.1\Problems.csprojAssemblyReference.cache
-C:\Users\zacha\Desktop\advent-of-code-2020\Problems\obj\Debug\netcoreapp3.1\Problems.AssemblyInfoInputs.cache
-C:\Users\zacha\Desktop\advent-of-code-2020\Problems\obj\Debug\netcoreapp3.1\Problems.AssemblyInfo.cs
-C:\Users\zacha\Desktop\advent-of-code-2020\Problems\obj\Debug\netcoreapp3.1\Problems.csproj.CoreCompileInputs.cache
-C:\Users\zacha\Desktop\advent-of-code-2020\Problems\obj\Debug\netcoreapp3.1\Problems.dll
-C:\Users\zacha\Desktop\advent-of-code-2020\Problems\obj\Debug\netcoreapp3.1\Problems.pdb

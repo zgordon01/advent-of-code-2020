@@ -1,3 +1,5 @@
 .idea/
 Problems/bin/
+Problems/obj
 Tests/bin
+Tests/obj

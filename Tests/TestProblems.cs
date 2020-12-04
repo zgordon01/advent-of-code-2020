@@ -1,5 +1,6 @@
 using Problems.Day1;
 using Problems.Day2;
+using Problems.Day3;
 using Xunit;
 
 namespace Tests
@@ -39,6 +40,24 @@ namespace Tests
             PasswordValidator passwordValidator = new PasswordValidator(Problems.Day2.PuzzleInput.Passwords);
             int numberOfValidPasswords = passwordValidator.GetFinalAnswerTobogganPolicy();
             Assert.Equal(588, numberOfValidPasswords);
+        }
+        [Fact]
+        public void Day3Part1()
+        {
+            Day3 day3 = new Day3();
+
+            string answer = day3.FinalAnswerPart1();
+            
+            Assert.Equal("173", answer);
+        }
+        [Fact]
+        public void Day3Part2()
+        {
+            Day3 day3 = new Day3();
+
+            string answer = day3.FinalAnswerPart2();
+            
+            Assert.Equal("4385176320", answer);
         }
     }
 }

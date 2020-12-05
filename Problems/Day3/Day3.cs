@@ -10,11 +10,12 @@ namespace Problems.Day3
     {
         private List<string> inputData;
 
-        public Day3()
+        public Day3(string filePath)
         {
-            string[] input = File.ReadAllLines("C:\\advent-of-code\\input-day3.txt");
+            string[] input = File.ReadAllLines(filePath);
             inputData = new List<string>(input);
         }
+        
         private double ComputeSlopeTreeHits(int downSpeed, int velocity)
         {
             int positionCounter = 0;

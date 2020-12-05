@@ -88,5 +88,14 @@ namespace Tests
             
             Assert.Equal("822", answer);
         }
+        [Fact]
+        public void Day5Part2()
+        {
+            Day5 day5 = new Day5("C:\\advent-of-code\\input-day5.txt");
+
+            string answer = day5.FinalAnswerPart2();
+            
+            Assert.Equal("705", answer);
+        }
     }
 }

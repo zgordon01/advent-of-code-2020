@@ -31,7 +31,7 @@ namespace Problems.Day4
         
         private int GetPassportCount()
         {
-            var validCount = 0;
+            int validCount = 0;
             passports.ForEach(passport =>
             {
                 if (PassportHasAllFields(passport))

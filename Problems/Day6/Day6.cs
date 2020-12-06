@@ -13,7 +13,9 @@ namespace Problems.Day6
         private Day6(){}
         
         public Day6(string filePath)
-        {
+        { // I'm trying something different with this day's problem. Object construction in the constructor will represent
+          // the problem well in a more OOO form, and simple calculations on the represented data is all I need to do in the answer methods.
+          // In a true scenario this would be broken out and unit tested (maybe tomorrow?)
             List<string> groupsInput;
 
             string rawInput = File.ReadAllText(filePath);
@@ -24,7 +26,7 @@ namespace Problems.Day6
                 List<char> questionsEveryoneAnswered = answerSets[0].ToList();
                 
                 answerSets.ForEach(set =>
-                { // If you are reading this, I hate everything in this block... but it works.
+                { // If you are reading this, I hate everything in this block... but it works. It's all for part 2
                     foreach (char x in set)
                     {
                         if (!questionsEveryoneAnswered.Contains(x))
@@ -69,7 +71,6 @@ namespace Problems.Day6
         {
             double answer = 0;
             QuestionGroups.ForEach(group => answer += group.QuestionsEveryoneAnswered.Count());
-
 
             return answer.ToString();
         }

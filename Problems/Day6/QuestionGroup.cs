@@ -7,7 +7,7 @@ namespace Problems.Day6
         public List<string> AnswerSets { get; set; }
         public List<char> UniqueQuestions { get; set; }
         
-        public List<char> QuestionsEveryoneAnswered = new List<char>();
+        public List<char> QuestionsEveryoneAnswered { get; set; }
 
     }
 }

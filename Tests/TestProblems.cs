@@ -3,6 +3,7 @@ using Problems.Day2;
 using Problems.Day3;
 using Problems.Day4;
 using Problems.Day5;
+using Problems.Day6;
 using Xunit;
 
 namespace Tests
@@ -96,6 +97,15 @@ namespace Tests
             string answer = day5.FinalAnswerPart2();
             
             Assert.Equal("705", answer);
+        }
+        [Fact]
+        public void Day6Part1()
+        {
+            Day6 day6 = new Day6("C:\\advent-of-code\\input-day6-test.txt");
+            
+            string answer = day6.FinalAnswerPart2();
+            
+            Assert.Equal("TODO", answer);
         }
     }
 }

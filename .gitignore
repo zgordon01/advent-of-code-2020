@@ -2,4 +2,6 @@
 Problems/bin/
 Problems/obj
 Tests/bin
-Tests/obj
+Tests/
+
+AdventOfCode.sln.DotSettings.user

@@ -78,7 +78,7 @@ namespace Tests
 
             string answer = day4.FinalAnswerPart2();
             
-            Assert.Equal("", answer);
+            Assert.Equal("6", answer);
         }
         [Fact]
         public void Day5Part1()
@@ -101,11 +101,20 @@ namespace Tests
         [Fact]
         public void Day6Part1()
         {
-            Day6 day6 = new Day6("C:\\advent-of-code\\input-day6-test.txt");
+            Day6 day6 = new Day6("C:\\advent-of-code\\input-day6.txt");
+            
+            string answer = day6.FinalAnswerPart1();
+            
+            Assert.Equal("7110", answer);
+        }
+        [Fact]
+        public void Day6Part2()
+        {
+            Day6 day6 = new Day6("C:\\advent-of-code\\input-day6.txt");
             
             string answer = day6.FinalAnswerPart2();
             
-            Assert.Equal("TODO", answer);
+            Assert.Equal("3628", answer);
         }
     }
 }
